@@ -1,9 +1,10 @@
 streamlit==1.25.0
 pandas==2.0.3
 plotly==5.15.0
-fpdf==1.7.2
+fpdf==1.7.2  # o fpdf2==2.7.6 si usas la nueva versión
 requests==2.31.0
 kaleido==0.2.1
 beautifulsoup4==4.12.2
 cloudscraper==1.2.71  
-matplotlib==3.7.2    
+matplotlib==3.7.2
+lxml
