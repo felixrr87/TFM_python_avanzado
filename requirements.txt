@@ -6,8 +6,8 @@ requests==2.31.0
 kaleido==0.2.1
 beautifulsoup4==4.12.2
 cloudscraper==1.2.71
-matplotlib==3.8.0  
-pillow==9.5.0
-numpy==1.26.4
+matplotlib==3.7.1
+pillow==9.4.0
+numpy==1.25.2
 lxml>=4.9.0
 python-dotenv==1.0.0
