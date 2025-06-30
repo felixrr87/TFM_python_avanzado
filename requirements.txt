@@ -8,6 +8,6 @@ beautifulsoup4==4.12.2
 cloudscraper==1.2.71
 matplotlib==3.7.1
 pillow==9.4.0
-numpy==1.25.2
+numpy==1.24.4
 lxml>=4.9.0
 python-dotenv==1.0.0
