@@ -85,4 +85,5 @@ def show_loading():
             time.sleep(0.07)
 
     st.session_state.loading_done = True
-    st.rerun()
+    st.experimental_rerun()
+
