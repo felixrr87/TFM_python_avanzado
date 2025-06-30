@@ -143,7 +143,7 @@ def show_login():
             st.session_state.logged_in = True
             st.success("Acceso concedido")
             time.sleep(1)
-            st.rerun()
+            st.experimental_rerun()
         else:
             st.error("Credenciales incorrectas")
 
