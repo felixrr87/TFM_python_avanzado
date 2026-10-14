@@ -10,7 +10,7 @@ from io import BytesIO
 from backend.pdf_generator import create_pdf, clean_text
 
 # Configuración
-API_KEY = "18f8f363554247f69bba9b7a9d049da8"
+API_KEY = os.environ.get("FOOTBALL_DATA_API", "")
 COMPETITION = "PL"
 
 def load_data():
